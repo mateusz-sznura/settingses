@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[alias]
+    logod = log --oneline --decorate
+[user]
+	name = Mateusz Sznura
+	email = msznura@gmail.com
+[core]
+	editor = vim
