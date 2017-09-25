@@ -1,6 +1,8 @@
-# This is Git's per-user configuration file.
 [alias]
     logod = log --oneline --decorate
+	map = log --all --decorate --graph --oneline
+[credential]
+	helper = cache --timeout=3600
 [user]
 	name = Mateusz Sznura
 	email = msznura@gmail.com
