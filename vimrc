@@ -20,6 +20,7 @@ inoremap {<CR> {<CR>}<ESC>O
 " Display
 set background=light
 set nowrap
+set number
 set ruler
 set showcmd
 
