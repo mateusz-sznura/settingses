@@ -1,0 +1,12 @@
+build-essential  # Among others, needed for Python compilation
+zlib1g-dev  # Needed for Python compilation; check for /usr/include/zlib.h
+libssl-dev  # Needed for Python compilation
+libreadline-dev  # Python compilation too
+libsqlite3-dev $ Python compilation too
+vim
+qnapi
+vlc
+sshfs
+tree
+git
+sqlite3

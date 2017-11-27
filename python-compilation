@@ -1,0 +1,42 @@
+Compile with zlib:
+==================
+
+Install zlib1g-dev package
+Find zlib.h (probabely in /usr/include)
+# OBSOLTE, just install the package ./configure --with-zlib==/usr/include
+
+
+Own space for Pythons
+=====================
+
+$HOME/python/pythonX.Y.Z, e.g. /home/metju/python/python3.6.3
+./configure --prefix=$HOME/python/pythonX.Y.Z/
+
+Add some minimal config to .bashrc ($PATH or sth)
+
+Build with ssl
+==============
+
+Pip won't work without it, for starters.
+
+THIS IS OBSOLETE, unrecognized option --> ./configure --with-ssl
+
+Install libssl-dev packagk instead
+
+Install readline
+================
+
+package libreadline-dev
+
+Install with sqlite3 support
+============================
+
+package libsqlite3-dev
+
+
+Commands
+========
+
+make
+make test
+make install
