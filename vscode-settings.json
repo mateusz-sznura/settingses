@@ -1,0 +1,20 @@
+//
+// ln -s -T vscode-settings.json ~/.config/Code/User/settings.json
+//
+
+{
+    "workbench.statusBar.visible": true,
+
+    "update.channel": "none",
+
+    "editor.renderIndentGuides": true,
+    "editor.fontSize": 16,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [79],
+
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+
+    "window.zoomLevel": -1
+}
