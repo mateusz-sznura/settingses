@@ -1,5 +1,6 @@
 //
-// ln -s -T vscode-settings.json ~/.config/Code/User/settings.json
+// DOESN'T WORK ln -s -T vscode-settings.json ~/.config/Code/User/settings.json
+// cp vscode-settings.json ~/.config/Code/User/settings.json
 //
 
 {
