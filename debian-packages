@@ -14,3 +14,7 @@ terminator
 shutter
 simplescreenrecorder
 htop
+
+# On desktop to install Nvidia drivers
+linux-headers-amd64
+nvidia-driver
